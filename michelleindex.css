@@ -1,0 +1,87 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+    html {
+      height: 100%;
+    }
+    body {
+      background-color:#FFFBAD;
+       height: 100%;
+       color:#085490;
+    }
+
+    header {
+        background-color: #850000;
+        width: 100vw;
+        font-size: 24px;
+        font-family: 'Satisfy', cursive;
+        color:#E8C180;
+        display: block;
+    }
+    nav {
+        float: left;
+        width: 100vw;
+        font-family: 'Baloo', cursive;
+        background-image:url(http://s3.amazonaws.com/spoonflower/public/design_thumbnails/0289/6414/rrrpizza_pepperoni_shop_preview.png);
+        background-repeat:repeat-x;
+    }
+    nav ul {
+        float: left;
+        border-bottom: 12;
+        list-style-type: none;
+    }
+    nav li {
+        float: left;
+        color: #E8C180
+    }
+    nav li a {
+        display: block;
+        height: 25px;
+        padding: 10px 10px 8px 10px;
+        vertical-align: middle;
+    }
+    a {
+        color: #000000;
+    }
+    section {
+        width: 70%;
+        padding: 10px;
+        display: inline-block;
+        font-family: 'Baloo', cursive;
+      }
+
+.pizza{
+  max-width:300px;
+  max-height:300px;
+}
+
+.floating {
+  float:left;
+  padding: 30px;
+}
+
+.vertical-rl { writing-mode: vertical-rl; float:right; }
+
+#whatever {
+  max-width: 250px;
+  max-height:250px;
+}
+
+    aside {
+        width: 17%;
+        display: inline-block;
+        background-color:;
+        padding:;
+        min-height: 100%;
+    }
+    aside ul {
+        list-style-type: none;
+    }
+    footer {
+        width: 790px;
+        background-color:#F3EEE7;
+        clear: both;
+        display: block;
+        text-align:center;
+    }
